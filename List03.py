@@ -7,5 +7,7 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
+    list1==[1,32,]
+    list2==[2,6,5]
     return list1+list2
-print(main("salo","besh"))
+print(main("salom",'salo'))
