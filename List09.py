@@ -12,4 +12,4 @@ def main(list1):
             return False
         b+=1
     return True
-print(main([1,1,5,1,1]))
+print(main(["x","y","x","y","y"]))
