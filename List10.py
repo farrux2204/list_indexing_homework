@@ -7,7 +7,7 @@ def main(list_num):
         int: return answer
     """
     if list_num[0]>list_num[-1]:
-        return list_num[0
-    else:
-            return list_num[-1]]
-print(main([11,2,3,5,41]))
+        return list_num[0]
+    if list_num[0]<list_num[-1]:
+        return list_num[-1]
+print(main([1,2,2,28,]))
