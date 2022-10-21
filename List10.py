@@ -8,6 +8,6 @@ def main(list_num):
     """
     if list_num[0]>list_num[-1]:
         return list_num[0]
-    if list_num[0]<list_num[-1]:
+    else:
         return list_num[-1]
 print(main([-1,2,2,6]))
