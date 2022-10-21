@@ -12,4 +12,4 @@ def main(list1):
             list1[i]=False
             i+1
     return list1
-print(main([0,1,0,1,0]))
+print(main([0,1,0,1,0]))  
