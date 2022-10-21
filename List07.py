@@ -10,6 +10,6 @@ def main(list1):
     while i<len(list1):
         if list1[i]==0:
             list1[i]=False
-            i+1 
+    i+=1
     return list1
 print(main([0,1,0,1,0]))  
